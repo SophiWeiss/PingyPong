@@ -1,0 +1,79 @@
+.body {
+  background-color: black;
+}
+
+.p {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: lighter;
+  font-family: 'Quicksand', sans-serif;
+  display: block;
+  text-align: center;
+  line-height: 40px;
+  width: 464px;
+  margin-left: 118px;
+  margin-top: 33px;
+  margin-bottom: 33px;
+}
+
+.h1 {
+  color: white;
+  font-size: 64px;
+  font-weight: lighter;
+  font-family: 'Quicksand', sans-serif;
+  display: block;
+  text-align: center;
+  line-height: 76px;
+  padding-top: 49px;
+}
+
+/*.button {*/
+/*  background-color: #993955;*/
+
+/*  width: 314px;*/
+/*  height: 67px;*/
+/*}*/
+
+.button {
+  margin: 10px;
+  padding: 15px 15px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border: 0px;
+  font-weight: 100;
+  box-shadow: 0px 0px 14px -7px #8b85c1;
+  background-image: linear-gradient(45deg, #993955 0%, #8b85c1 51%, #993955 100%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 314px;
+  height: 67px;
+  font-size: 32px;
+  font-family: 'Quicksand', sans-serif;
+  line-height: 10px;
+  alignment: center;
+
+}
+
+.button:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.button:active {
+  transform: scale(0.95);
+}
+
+.divy {
+  background-color: #37123C;
+  width: 700px;
+  height: 500px;
+}
