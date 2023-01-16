@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Pingy Pong</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="script" href="script.js">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
@@ -12,9 +13,19 @@
   <div class="div">
     <h1 class="h1">PINGUI PONG</h1>
     <p class="p">This is my<strong> Pingui Pong</strong>, in this menu u can change colors as <strong>your ass</strong> wants to!</p>
-    <div class="div_button">
+    <div class="div_button" id="main-menu">
       <button class="button" role="button">PLAY</button>
-      <button class="button" role="button">CHANGE COLORS</button>
+      <button class="button" role="button" id="preferences-button">CHANGE COLORS</button>
+    </div>
+    <div id="preferences-menu" style="display: none;">
+      <button></button>;
+      <button></button>;
+      <button></button>;
+      <button></button>;
+      <button></button>;
+      <button></button>;
+      <button></button>;
+      <button></button>;
     </div>
   </div>
 </body>
